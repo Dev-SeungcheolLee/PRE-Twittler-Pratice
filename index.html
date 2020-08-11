@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+    <div id = "header">Twittler</div>
+    <form>
+        <div>
+            <label for="userName">UserName</label>
+        </div>
+        <div>
+            <input type="text" id="input-username" name="userName">
+        </div>
+        <div>
+            <label for="comment">Comment</label>
+        </div>
+        <div>
+            <textarea></textarea>
+        </div>
+        <div>
+            <input type="submit" value="tweet!">
+        </div>
+    </form>
+    <div class="tweet-container">
+        <div class ="checkBtn-container">
+            <button>check new Tweet</button>
+        </div>
+        <ul>
+            <li>
+                <span class="tweet-username">이름</span>
+                <span class="tweet-date">년 - 월 - 일</span>
+                <span class="tweet-time">시간 : 분 : 초</span>
+                <p class="tweet=content">트윗 내용</p>
+            </li>
+        </ul>        
+    </div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+#header {
+    background-color: deepskyblue;
+    width: 400px;
+    padding: 20px 5px 20px 5px;
+    border: 2px groove black;
+    margin: 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+form {
+    background-color: deepskyblue;
+    width: 400px;
+    border: 2px groove black;
+    margin: 5px;
+    padding: 20px 5px 20px 5px;
+}
+.tweet-container {
+    background-color: deepskyblue;
+    box-sizing: border-box;
+    width: 410px;
+    height: 600px;
+    margin: 7px;
+    padding: 0px 0px 10px 0px;
+}
+.checkBtn-container {
+    background-color: cornflowerblue;
+    height: 50px;
+    position: static;
+}
+button {
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+ul {
+    list-style: none;
+    padding-inline-start: 10px;
+}
+li {
+    width: 97%;
+    border-bottom: 1px groove black;
+}
+.tweet-username {
+    position: static;
+}
+.tweet-date {
+    position: relative;
+    left: 160px;
+}
+.tweet-time {
+    position: relative;
+    left: 180px;
+}
+.tweet-content {
+
+}
